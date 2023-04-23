@@ -1,0 +1,172 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <input type="checkinfo" name="" id="check">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#reflection">Reflection</a></li>
+            <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+        </ul>
+        <div class="menu">
+            <label for="check">
+                <i class="fa fa-bars"></i>
+            </label>
+        </div>
+    </header>
+    <section class="home-section active" id="home">
+        <h1 class="home-text">hello, i am <br> Yaj</h1>
+        <img src="myself.jpg" class="home-myself" alt=" My image">
+    </section>
+
+    <section class="project-section active" id="project">
+        <div class="heading">
+            <h1 contenteditable>Projects</h1>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <div class="box">
+                        <img src="card6.jpg" alt="card">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Layout<br><span>Week 1</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="box">
+                        <img src="card1.jpg" alt="card">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Presentation<br><span>Week 2</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="box">
+                        <img src="card2.jpg" alt="card">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Behaviour<br><span>Week 3</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="box">
+                        <img src="card3.jpg" alt="card">
+                    </div>
+                    <div class="contentBx">
+                        <h3>The DOM<br><span>Week 4</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="box">
+                        <img src="card4.jpg" alt="card">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Data Processing<br><span>Week 5</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="box">
+                        <img src="card5.jpg" alt="card">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Design Methodology<br><span>Week 6</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section active" id="about">
+        <div class="heading">
+            <h1 contenteditable>About Me</h1> 
+        </div>
+        <div class="about">
+            <div class="about-img-container">
+                <img src="myself.jpg" class="about-img" alt="image">
+            </div>
+            <p class="about-text">I am someone who likes to learn and improve about new stuff around the IT world. My other qualities are that I am flexible to changes in the working environment and I like being challenged as it brings out the best. I have very good communication skills as I worked several places and learnt how to work as a team. </p>
+        </div>
+    </section>
+
+    <section class="contact-section active" id="contact">
+        <div class="heading">
+            <h1 contenteditable>Contact</h1>
+        </div>
+        <form>
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT" />
+        </form>
+    </section>
+
+    <section class="reflection-section active" id="reflection">
+        <div class="heading">
+            <h1 contenteditable>Reflection</h1>
+        </div>
+        <div class="box-container">
+            <div class="challenges-content content">
+                <h1>Challenges</h1>
+                <ol>
+                    <li><b>Web Development Process:</b></br>•	Web development itself is a challenging task as it requires a lot of knowledge in order to build a proper website. </li>
+
+                    <li><b>Talent Gap:</b></br>•	CSS is difficult to learn.
+
+                        •	There were issues when implementing DIV 
+
+                        •	After building the website, there were few errors when I ran a test on HTML validator.
+                        
+                        
+                        
+                        </li>
+                    
+                </ol>
+            </div>
+            <div class="challenges-side">
+                <button class="right-button">⟶</button>
+            </div>
+            <div class="solutions-side">
+                <button class="left-button">⟵</button>
+            </div>
+            <div class="solutions-content content">
+                <h1>Solutions</h1>
+                <ol>
+                    <li><b> Solution 1</b></br> •	Did a lot of research and went through W3 school to have a proper grasp in Css and HTML.
+                    <li><b>Solution 2:</b></br> •	Went through most of the mistakes that were identified throughout HTML validator, which was 17 at first and was able to reduce the errors doing research.
+                   
+                </ol>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
